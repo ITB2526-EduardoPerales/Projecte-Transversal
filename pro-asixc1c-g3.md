@@ -489,10 +489,13 @@ Le cambio el nombre para identificar mi VPC
 #### ***2.2.2. Servidor de Directorio Activo (LDAP/AD)*** {#2.2.2.-servidor-de-directorio-activo-(ldap/ad)}
 
 Instalamos el paquete de ldap desde la terminal de una máquina linux  
-![][image11]  
+<img width="594" height="54" alt="Captura de pantalla de 2026-05-19 10-16-03" src="https://github.com/user-attachments/assets/767dbb14-16c3-4a03-b1b2-ba3fdea274cf" />
+
 Configuración del servicio de ldap  
-![][image12]  
-![][image13]  
+<img width="737" height="378" alt="Captura de pantalla de 2026-05-19 10-25-46" src="https://github.com/user-attachments/assets/fb0c1295-dea1-4efe-963e-9ceb7714f826" />
+<img width="737" height="378" alt="Captura de pantalla de 2026-05-19 10-27-17" src="https://github.com/user-attachments/assets/00a617e1-6956-4f89-9cda-2e7e8981f40e" />
+<img width="737" height="378" alt="Captura de pantalla de 2026-05-19 10-26-33" src="https://github.com/user-attachments/assets/bc8c313d-6759-45cc-9fdd-e41ccefe07c7" />
+
 Especificamos el nombre de dominio.  
 ![][image14]  
 Ponemos la contraseña de administrador de LDAP  
