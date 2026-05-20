@@ -234,7 +234,8 @@ Este esquema muestra cómo colocamos físicamente los equipos de arriba a abajo 
 
 ### **1.3.1. Diseño de la Alimentación Redundante** {#1.3.1.-diseño-de-la-alimentación-redundante}
 
-![][image3]
+<img width="655" height="625" alt="Captura de pantalla de 2026-05-19 08-16-44" src="https://github.com/user-attachments/assets/cea95d07-61f7-423b-96b7-9c3ee7e7fd8a"/>
+
 
 ### **1.3.2. Memoria de Cálculo de la Carga en Vatios (W) y Voltiamperios (VA)** {#1.3.2.-memoria-de-cálculo-de-la-carga-en-vatios-(w)-y-voltiamperios-(va)}
 
