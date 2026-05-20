@@ -235,7 +235,7 @@ Este esquema muestra cómo colocamos físicamente los equipos de arriba a abajo 
 ### **1.3.1. Diseño de la Alimentación Redundante** {#1.3.1.-diseño-de-la-alimentación-redundante}
 
 <img width="655" height="625" alt="Captura de pantalla de 2026-05-19 08-16-44" src="https://github.com/user-attachments/assets/cea95d07-61f7-423b-96b7-9c3ee7e7fd8a"/>
-
+Aqui se puede ver el esquema de la alimentacion redudante de los racks
 
 ### **1.3.2. Memoria de Cálculo de la Carga en Vatios (W) y Voltiamperios (VA)** {#1.3.2.-memoria-de-cálculo-de-la-carga-en-vatios-(w)-y-voltiamperios-(va)}
 
@@ -259,7 +259,7 @@ Ah \= (W × t) / (V\_bat × η)
    \= (2.000 × 0,5) / (48 × 0,95)  
    \= 1.000 / 45,6  
    ≈ 22 Ah por SAI  
-El APC SRT2200RMXLI incluye de serie \~17 Ah a 48 V. Con el módulo externo APC SRT48RMBP (+18 Ah) se alcanzan 35 Ah, lo que cubre los 30 minutos con margen.
+El APC SRT2200RMXLI incluye de serie \~17 Ah a 48 V. Con el módulo externo APC SRT48RMBP se alcanzan 35 Ah, lo que cubre los 30 minutos con margen.
 
 ## 1.4 Seguridad y Prevención de Riesgos Laborales {#1.4-seguridad-y-prevención-de-riesgos-laborales}
 
