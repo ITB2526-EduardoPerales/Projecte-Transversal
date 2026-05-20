@@ -522,35 +522,43 @@ Creamos el archivo usuarios.ldif para a posteriori poder crear los usuarios.
 
 
 Creación del usuario Eduardo
+
 <img width="465" height="351" alt="Captura de pantalla de 2026-05-20 08-27-42" src="https://github.com/user-attachments/assets/90e3fa11-30e5-4277-b50e-623963e7b61e" />
 
 
 Creación del usuario Pol  
+
 <img width="443" height="278" alt="Captura de pantalla de 2026-05-20 08-29-44" src="https://github.com/user-attachments/assets/95ae1e9d-62bd-48e4-a344-c42b8f09d95e" />
 
 
 Creación del usuario Lucia  
+
 <img width="451" height="278" alt="Captura de pantalla de 2026-05-20 08-33-21" src="https://github.com/user-attachments/assets/c4c152af-fb03-4b6a-a765-ca1959e74f87" />
 
 
 Creación del usuario Aleshka  
+
 <img width="479" height="278" alt="Captura de pantalla de 2026-05-20 08-34-03" src="https://github.com/user-attachments/assets/09103ee9-a8a9-4a4a-8872-6beeaee17305" />
 
 
 Añadimos los usuarios al directorio.
+
 <img width="712" height="219" alt="Captura de pantalla de 2026-05-20 08-37-00" src="https://github.com/user-attachments/assets/c0fe2490-e566-4d4d-99b8-6815ef9c90d4" />
 
 
 Asignamos contraseñas para cada uno de los usuarios en este caso @ITB2026 para todos para que cuando avancemos en el proyecto no haya confusiones o problemas.
+
 <img width="712" height="241" alt="Captura de pantalla de 2026-05-20 08-39-33" src="https://github.com/user-attachments/assets/0e53ab2d-0c4b-47a4-ac2c-ee116cf3455c" />
 
 
 Creamos el playbook de ansible:  
+
 <img width="712" height="497" alt="Captura de pantalla de 2026-05-20 08-46-18" src="https://github.com/user-attachments/assets/dd04dc77-01d4-4b79-81b4-f81b596f9fe4" />
 
 
 
 Ejecutamos el playbook y como se puede ver todo ha funcionado correctamente.
+
 <img width="917" height="725" alt="Captura de pantalla de 2026-05-20 09-02-06" src="https://github.com/user-attachments/assets/208c3611-c24a-4ad6-bc48-41dac5c16cb6" />
 
 
