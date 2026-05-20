@@ -365,6 +365,7 @@ Por otro lado,los símbolos rojos del techo corresponden a detectores ópticos d
 Aunque la sala del CPD es pequeña, es fundamental garantizar una evacuación rápida y segura en caso de emergencia. La evacuación es directa e inmediata hacia el exterior, y no se requieren vías alternativas ni puertas secundarias. 
 
 La sala de servidores tiene una única puerta de salida, la cual está equipada con una barra antipánico, lo que permite abrirla inmediatamente desde el interior.
+
 <img width="400" height="639" alt="Plano de evacuación" src="https://github.com/user-attachments/assets/3a9ca6f1-e06c-43af-bd62-c34f392cea5b" />
 
 
