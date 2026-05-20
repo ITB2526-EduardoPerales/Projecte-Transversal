@@ -226,9 +226,9 @@ Este esquema muestra cómo colocamos físicamente los equipos de arriba a abajo 
 * Lo pesado va abajo (Seguridad y PRL): El NAS QNAP y los servidores Dell son los equipos que más pesan. Al ponerlos abajo del todo (U1 a U5), el centro de gravedad del armario se mantiene bajo. Así evitamos que el rack pueda volcarse si hay un golpe, cumpliendo las normas de Prevención de Riesgos Laborales. Además, reciben primero el aire frío que entra por el suelo técnico.  
 * Las comunicaciones en medio: Los switches y patch panels van en las posiciones U20 y U21. Se colocan ahí por comodidad: quedan a la altura de los ojos, lo que facilita a los técnicos conectar y etiquetar cables sin tener que tirarse al suelo.   
 * Esquema del Alzado de los Racks:  
-  ![][image1]
+<img width="465" height="671" alt="ifr drawio" src="https://github.com/user-attachments/assets/7455635c-a47e-4da1-93bb-037dd169c689" />
 
-![][image2]
+<img width="574" height="672" alt="Captura de pantalla de 2026-05-19 08-40-37" src="https://github.com/user-attachments/assets/0d3c19c0-733a-4e43-994a-e55c1b492ca5" />
 
 ## 1.3 Infraestructura Eléctrica y Continuidad de Negocio {#1.3-infraestructura-eléctrica-y-continuidad-de-negocio}
 
