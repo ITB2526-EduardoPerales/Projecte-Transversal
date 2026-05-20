@@ -288,6 +288,7 @@ Con el fin de restringir el acceso al centro de datos únicamente al personal au
 #### ***Videovigilancia*** {#videovigilancia}
 
 Para complementar el control de acceso y proporcionar pruebas visuales en caso de incidentes, se propone la instalación de un sistema de videovigilancia con cámaras IP de alta definición, diseñado para garantizar una cobertura total de todas las zonas críticas, especialmente los pasillos de aire y las zonas de manipulación de racks. Se instalarán un mínimo de cuatro cámaras IP, conectadas a la red interna y a un grabador de vídeo en red (NVR).
+
 <img width="398" height="665" alt="Plano de camaras" src="https://github.com/user-attachments/assets/ac7a6d62-20bd-45d6-9aef-b9322771faa8" />
 
 **Cámara 1 \- Puerta:**   
