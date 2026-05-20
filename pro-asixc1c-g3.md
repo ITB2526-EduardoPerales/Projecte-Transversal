@@ -288,6 +288,7 @@ Con el fin de restringir el acceso al centro de datos únicamente al personal au
 #### ***Videovigilancia*** {#videovigilancia}
 
 Para complementar el control de acceso y proporcionar pruebas visuales en caso de incidentes, se propone la instalación de un sistema de videovigilancia con cámaras IP de alta definición, diseñado para garantizar una cobertura total de todas las zonas críticas, especialmente los pasillos de aire y las zonas de manipulación de racks. Se instalarán un mínimo de cuatro cámaras IP, conectadas a la red interna y a un grabador de vídeo en red (NVR).
+<img width="398" height="665" alt="Plano de camaras" src="https://github.com/user-attachments/assets/ac7a6d62-20bd-45d6-9aef-b9322771faa8" />
 
 **Cámara 1 \- Puerta:**   
 Supervisa las entradas y salidas.  
@@ -353,7 +354,8 @@ El sistema se activa automáticamente cuando los sensores detectan condiciones d
 El panel del sistema de alarma contra incendios se ubicará en la pared justo al lado de la puerta, desde donde se podrá comprobar el estado de los detectores, verificar las alertas y activar o silenciar las alarmas manualmente. 
 
 **Plano de los sensores**  
-![][image4]  
+<img width="898" height="562" alt="Plano de sensores" src="https://github.com/user-attachments/assets/33d438bd-2d1b-457c-9c94-efc0950c9b56" />
+
 En el plano, el cuadrado naranja situado en el techo representa la salida de descarga del sistema de extinción de incendios por gas, que se instalaría fuera de la sala de servidores y se conectaría al sistema.   
 Por otro lado,los símbolos rojos del techo corresponden a detectores ópticos de humo, y los elementos de las paredes identifican los sensores de temperatura encargados de detectar aumentos anormales de calor. 
 
@@ -362,6 +364,8 @@ Por otro lado,los símbolos rojos del techo corresponden a detectores ópticos d
 Aunque la sala del CPD es pequeña, es fundamental garantizar una evacuación rápida y segura en caso de emergencia. La evacuación es directa e inmediata hacia el exterior, y no se requieren vías alternativas ni puertas secundarias. 
 
 La sala de servidores tiene una única puerta de salida, la cual está equipada con una barra antipánico, lo que permite abrirla inmediatamente desde el interior.
+<img width="400" height="639" alt="Plano de evacuación" src="https://github.com/user-attachments/assets/3a9ca6f1-e06c-43af-bd62-c34f392cea5b" />
+
 
 **Señalización fotoluminiscente**  
 En el suelo hay flechas fotoluminiscentes que indican la dirección hacia la puerta.
