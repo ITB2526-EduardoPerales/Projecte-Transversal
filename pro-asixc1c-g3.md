@@ -474,7 +474,8 @@ La distribución del CPD se diseñará de manera que los técnicos puedan trabaj
 ### **2.1 Arquitectura de Red Virtual (VPC) y Seguridad Lógica** {#2.1-arquitectura-de-red-virtual-(vpc)-y-seguridad-lógica}
 
 Antes de empezar con esto hemos hecho una imagen con respecto a nuestra distribución y cómo están conectados los servicios.  
-![][image5]
+
+<img width="1408" height="768" alt="Gemini_Generated_Image_s9d804s9d804s9d8" src="https://github.com/user-attachments/assets/876b1dfe-a120-4acc-8139-2f195a9b2646" />
 
 #### ***2.1.1. Diseño de Subredes, Tablas de Enrutamiento e Internet Gateway*** {#2.1.1.-diseño-de-subredes,-tablas-de-enrutamiento-e-internet-gateway}
 
