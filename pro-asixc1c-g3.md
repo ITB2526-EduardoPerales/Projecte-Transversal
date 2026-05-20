@@ -498,6 +498,7 @@ Configuración del servicio de ldap
 
 Especificamos el nombre de dominio.  
 <img width="737" height="378" alt="Captura de pantalla de 2026-05-19 10-26-33" src="https://github.com/user-attachments/assets/bc8c313d-6759-45cc-9fdd-e41ccefe07c7" />
+
 Ponemos la contraseña de administrador de LDAP  
 <img width="737" height="378" alt="Captura de pantalla de 2026-05-19 10-27-17" src="https://github.com/user-attachments/assets/758f590d-8062-4397-8bde-798c6bea29fe" />
 
