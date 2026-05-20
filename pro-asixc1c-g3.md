@@ -479,15 +479,6 @@ Antes de empezar con esto hemos hecho una imagen con respecto a nuestra distribu
 
 #### ***2.1.1. Diseño de Subredes, Tablas de Enrutamiento e Internet Gateway*** {#2.1.1.-diseño-de-subredes,-tablas-de-enrutamiento-e-internet-gateway}
 
-Eduardo  
-Cada integrante se creará una VPC con la finalidad de hacer peering y luego poder tener conexión entre   
-![][image6]  
-![][image7]  
-**![][image8]**  
-Le cambio el nombre para identificar mi VPC   
-![][image9]  
-**![][image10]**
-
 #### ***2.1.2. Configuración de Firewalls Lógicos (Security Groups)*** {#2.1.2.-configuración-de-firewalls-lógicos-(security-groups)}
 
 ### **2.2 Implementación de Servicios en Instancias EC2** {#2.2-implementación-de-servicios-en-instancias-ec2}
