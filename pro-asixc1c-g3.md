@@ -271,7 +271,7 @@ La seguridad física del centro de datos tiene por objeto proteger los equipos, 
 
 Con el fin de restringir el acceso al centro de datos únicamente al personal autorizado y de mantener un registro trazable de todas las operaciones de acceso, se implantará un sistema de control de acceso MFA basado en la autenticación por capas.
 
-1. **Contraseña**  
+1. **Contraseña** {#Contraseña}
    La primera capa de seguridad consistirá en una contraseña personal asociada a cada usuario. Esto permite iniciar el proceso de autenticación y desbloquea el acceso al sistema de validación física.  
    Las contraseñas deben cumplir con las políticas de seguridad:  
 * Longitud mínima  
@@ -285,7 +285,7 @@ Con el fin de restringir el acceso al centro de datos únicamente al personal au
 3. **Lector biométrico de huella dactilar**  
    Por último, será necesaria la validación biométrica mediante huella dactilar. Este sistema confirma físicamente la identidad de la persona y evita el acceso fraudulento con tarjetas robadas o compartidas. 
 
-#### ***Videovigilancia*** 
+#### ***Videovigilancia*** {#Videovigilancia}
 
 Para complementar el control de acceso y proporcionar pruebas visuales en caso de incidentes, se propone la instalación de un sistema de videovigilancia con cámaras IP de alta definición, diseñado para garantizar una cobertura total de todas las zonas críticas, especialmente los pasillos de aire y las zonas de manipulación de racks. Se instalarán un mínimo de cuatro cámaras IP, conectadas a la red interna y a un grabador de vídeo en red (NVR).
 
