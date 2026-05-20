@@ -267,7 +267,7 @@ El APC SRT2200RMXLI incluye de serie \~17 Ah a 48 V. Con el módulo externo APC 
 
 La seguridad física del centro de datos tiene por objeto proteger los equipos, los datos y al personal frente al acceso no autorizado, los incidentes ambientales y las situaciones de emergencia. A continuación se detalla el diseño propuesto para cada sección.
 
-#### ***Sistema de control de acceso*** {#sistema-de-control-de-acceso}
+#### ***Sistema de control de acceso*** 
 
 Con el fin de restringir el acceso al centro de datos únicamente al personal autorizado y de mantener un registro trazable de todas las operaciones de acceso, se implantará un sistema de control de acceso MFA basado en la autenticación por capas.
 
@@ -285,7 +285,7 @@ Con el fin de restringir el acceso al centro de datos únicamente al personal au
 3. **Lector biométrico de huella dactilar**  
    Por último, será necesaria la validación biométrica mediante huella dactilar. Este sistema confirma físicamente la identidad de la persona y evita el acceso fraudulento con tarjetas robadas o compartidas. 
 
-#### ***Videovigilancia*** {#videovigilancia}
+#### ***Videovigilancia*** 
 
 Para complementar el control de acceso y proporcionar pruebas visuales en caso de incidentes, se propone la instalación de un sistema de videovigilancia con cámaras IP de alta definición, diseñado para garantizar una cobertura total de todas las zonas críticas, especialmente los pasillos de aire y las zonas de manipulación de racks. Se instalarán un mínimo de cuatro cámaras IP, conectadas a la red interna y a un grabador de vídeo en red (NVR).
 
