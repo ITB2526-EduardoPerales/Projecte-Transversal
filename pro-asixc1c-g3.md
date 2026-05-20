@@ -494,42 +494,64 @@ Instalamos el paquete de ldap desde la terminal de una máquina linux
 Configuración del servicio de ldap  
 <img width="737" height="378" alt="Captura de pantalla de 2026-05-19 10-25-46" src="https://github.com/user-attachments/assets/fb0c1295-dea1-4efe-963e-9ceb7714f826" />
 <img width="737" height="378" alt="Captura de pantalla de 2026-05-19 10-27-17" src="https://github.com/user-attachments/assets/00a617e1-6956-4f89-9cda-2e7e8981f40e" />
-<img width="737" height="378" alt="Captura de pantalla de 2026-05-19 10-26-33" src="https://github.com/user-attachments/assets/bc8c313d-6759-45cc-9fdd-e41ccefe07c7" />
+
 
 Especificamos el nombre de dominio.  
-![][image14]  
+<img width="737" height="378" alt="Captura de pantalla de 2026-05-19 10-26-33" src="https://github.com/user-attachments/assets/bc8c313d-6759-45cc-9fdd-e41ccefe07c7" />
 Ponemos la contraseña de administrador de LDAP  
-![][image15]  
-Mensaje conforme la configuración ha sido correcta.
+<img width="737" height="378" alt="Captura de pantalla de 2026-05-19 10-27-17" src="https://github.com/user-attachments/assets/758f590d-8062-4397-8bde-798c6bea29fe" />
 
-![][image16]  
+Mensaje conforme la configuración ha sido correcta.
+<img width="737" height="148" alt="Captura de pantalla de 2026-05-19 10-27-57" src="https://github.com/user-attachments/assets/832cd1dc-bdad-400a-b682-45456aa54608" />
+
+
 Para organizar a los empleados y los grupos creamos un archivo .ldif
 
-![][image17]  
+<img width="737" height="198" alt="Captura de pantalla de 2026-05-19 10-42-37" src="https://github.com/user-attachments/assets/f7bcbdb9-081d-4998-ac34-5c5da9b5d0c0" />
+
+
 Ahora cargamos el archivo en la base de datos de LDAP y como se puede ver se ha añadido todo correctamente.
 
-![][image18]  
+<img width="726" height="147" alt="Captura de pantalla de 2026-05-20 08-15-30" src="https://github.com/user-attachments/assets/5f1cf23b-b16a-4342-aa02-9ec2b8a3715a" />
+
+
 Creamos el archivo usuarios.ldif para a posteriori poder crear los usuarios.
 
-![][image19]  
+<img width="430" height="40" alt="Captura de pantalla de 2026-05-20 08-26-03" src="https://github.com/user-attachments/assets/748929d5-138f-4e77-8d7c-cc170d547960" />
+
+
 Creación del usuario Eduardo
+<img width="465" height="351" alt="Captura de pantalla de 2026-05-20 08-27-42" src="https://github.com/user-attachments/assets/90e3fa11-30e5-4277-b50e-623963e7b61e" />
 
-![][image20]  
+
 Creación del usuario Pol  
-![][image21]  
-Creación del usuario Lucia  
-![][image22]  
-Creación del usuario Aleshka  
-![][image23]  
-Añadimos los usuarios al directorio.
+<img width="443" height="278" alt="Captura de pantalla de 2026-05-20 08-29-44" src="https://github.com/user-attachments/assets/95ae1e9d-62bd-48e4-a344-c42b8f09d95e" />
 
-![][image24]  
+
+Creación del usuario Lucia  
+<img width="451" height="278" alt="Captura de pantalla de 2026-05-20 08-33-21" src="https://github.com/user-attachments/assets/c4c152af-fb03-4b6a-a765-ca1959e74f87" />
+
+
+Creación del usuario Aleshka  
+<img width="479" height="278" alt="Captura de pantalla de 2026-05-20 08-34-03" src="https://github.com/user-attachments/assets/09103ee9-a8a9-4a4a-8872-6beeaee17305" />
+
+
+Añadimos los usuarios al directorio.
+<img width="712" height="219" alt="Captura de pantalla de 2026-05-20 08-37-00" src="https://github.com/user-attachments/assets/c0fe2490-e566-4d4d-99b8-6815ef9c90d4" />
+
+
 Asignamos contraseñas para cada uno de los usuarios en este caso @ITB2026 para todos para que cuando avancemos en el proyecto no haya confusiones o problemas.
+<img width="712" height="241" alt="Captura de pantalla de 2026-05-20 08-39-33" src="https://github.com/user-attachments/assets/0e53ab2d-0c4b-47a4-ac2c-ee116cf3455c" />
+
 
 Creamos el playbook de ansible:  
-![][image25]  
-![][image26]  
+<img width="712" height="497" alt="Captura de pantalla de 2026-05-20 08-46-18" src="https://github.com/user-attachments/assets/dd04dc77-01d4-4b79-81b4-f81b596f9fe4" />
+
+
+
 Ejecutamos el playbook y como se puede ver todo ha funcionado correctamente.
+<img width="917" height="725" alt="Captura de pantalla de 2026-05-20 09-02-06" src="https://github.com/user-attachments/assets/208c3611-c24a-4ad6-bc48-41dac5c16cb6" />
+
 
 #### ***2.2.3. Servidor de Centralización de Logs del Sistema*** {#2.2.3.-servidor-de-centralización-de-logs-del-sistema}
 
