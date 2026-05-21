@@ -651,3 +651,8 @@ Desplegamos una máquina virtual VM-03 en AWS que nos servirá para centrar los 
 
 **6.1. Enlace al Vídeo Demostrativo Oficial (3 Minutos)**  
 **6.2. Registro de Incidencias, Problemas Encontrados y Soluciones Aplicadas**  
+
+
+
+<img width="736" height="417" alt="Captura de pantalla de 2026-05-20 12-37-59" src="https://github.com/user-attachments/assets/9de60200-786b-4dad-924c-9c0f68d6c57c" />
+
