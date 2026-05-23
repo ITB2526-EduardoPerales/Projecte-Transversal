@@ -140,31 +140,35 @@
 El CPD para Innovate Tech se encontraría en una planta intermedia del edificio. Las plantas bajas son más susceptibles a inundaciones o acceso fácil de parte de terceros, y las plantas más altas tienen más riesgo de calor elevado y goteras.   
 En vista de un edificio de ejemplo, la planta  ideal sería la que se encuentre a la mitad.
 
-### 
+El CPD para Innovate Tech se encontraría en una planta intermedia del edificio. 
+En un edificio como el mostrado en el dibujo, una localización ideal sería la primera planta en un edificio de 3 plantas, planta baja y sótano.
 
-### 
+Un sótano podría parecer más seguro pues está rodeado de tierra y la entrada es más complicada para terceros. Sin embargo, puede tener más peligro debido a inundaciones y la humedad puede ser más difícil de controlar.
+Además, el acceso de fibra puede ser más complicado.
 
-### 
+La planta baja conlleva un riesgo de acceso no autorizado, pues es donde se encuentra la entrada general y es demasiado accesible al público.
 
-### 
+Las plantas altas tampoco son recomendables, puesto que son más susceptibles al calor solar o a las lluvias, además que en caso de evacuación pueden ser difíciles de controlar. Otro problema sería la instalación o modificación de equipos, pues toda la maquinaria usada ha de transportarse y tiene un peso considerable, por lo que las plantas altas supondría otro problema. 
 
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
+La primera planta es la ideal, pues se encuentra a cierta altura sobre el suelo, eliminando el riesgo de inundación. También facilita la entrada de los cables y no está accesible directamente desde la calle al público.
 
 ### **1.1.2.	Medidas de Ocultación de la Infraestructura** {#1.1.2.-medidas-de-ocultación-de-la-infraestructura}
 
+La sala en la que se instala no tendrá carteles externos que indiquen el contenido del interior de manera explícita para así mantener en secreto su ubicación. En cambio, podemos indicar que se trata de una simple sala de mantenimiento, la cual estará bajo llave. Además, la estancia no debe tener ventanas en la fachada, pues puede resultar en una entrada no autorizada o en problemas con la climatización.
+
 ### **1.1.3.	Sistema de Climatización, Rangos Ambientales y Calidad del Aire** {#1.1.3.-sistema-de-climatización,-rangos-ambientales-y-calidad-del-aire}
 
+Respecto a la climatización, nuestro centro de datos tiene un sistema de refrigeración eficiente que acelera y mantiene la correcta ventilación de los equipos. Este consiste de un CRAC ubicado en un lateral de la sala con un filtro de aire HEPA implementado en su interior. Estos dispositivos trabajan conjuntamente para limpiar el aire de las partículas de polvo y así poder enfriarlo.
+Los racks de la sala están colocados de manera estratégica, pues conseguimos formar un sistema de pasillo cerrado frío y pasillo caliente. 
+Además, mantenemos una temperatura ambiente estable de entre 18ºC y 27ºC y una humedad relativa de entre el 40% y el 60%.
+
 ### **1.1.4.	Especificaciones del Suelo y Techo Técnico** {#1.1.4.-especificaciones-del-suelo-y-techo-técnico}
+
+El suelo y techo técnico tendrán unos 50-60 cm de altura, suficiente para transportar el aire caliente y frío, además de los distintos cableados. 
+Por nuestro suelo técnico encontramos los cables de alimentación, que proporcionarán electricidad a nuestros equipos y dispositivos para funcionar correctamente.
+Por nuestro techo técnico, en cambio, encontraremos el cableado de datos. 
+Esta separación de cableado cumple con la norma de separar alimentación y datos, pues los cables de electricidad pueden causar interferencias a la transmisión de datos. Esta separación física permite asegurar que no ocurra.
+Además, puesto que nuestros cables de transmisión de datos irán por el techo falso, conducto por dónde pasará el aire caliente, es muy recomendable que estén colocados dentro de una bandeja metálica cerrada con tapa, la cual actuaría como barrera térmica. Es aún más recomendable utilizar fibra óptica, mucho más resistente al calor.
 
 ### **1.1.5.	Planos de Planta y Distribución de la Sala** {#1.1.5.-planos-de-planta-y-distribución-de-la-sala}
 
