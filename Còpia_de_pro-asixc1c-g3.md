@@ -144,21 +144,7 @@ Además, puesto que nuestros cables de transmisión de datos irán por el techo 
 
 ### 1.1.5.	Planos de Planta y Distribución de la Sala
 
-
-
 ![Imagen](./imagenes/img_1.jpeg)
-
-
-
-![Imagen](./imagenes/img_2.jpeg)
-
-
-
-
-
-![Imagen](./imagenes/img_3.jpeg)
-
-
 
 ## 1.2 Infraestructura IT y Distribución de Racks
 
@@ -168,10 +154,14 @@ Para montar la infraestructura de Innovate Tech, la idea clave es no cometer el 
 
 Este es el hardware real que vamos a meter en el CPD:
 
-- 2x Servidores Host (Dell PowerEdge R760 - 2U cada uno): Son las dos máquinas principales donde irá el hipervisor para crear las máquinas virtuales. Llevan fuentes redundantes con certificación Titanium para no gastar luz de más (sostenibilidad) y tarjetas de red dobles a 10 Gbps para que no haya cuellos de botella.
-- 1x Cabina de Almacenamiento Centralizado (QNAP Enterprise ZFS NAS ES1642dc - 3U): Aquí es donde guardaremos todos los datos de la empresa de forma centralizada. Elegimos este modelo porque tiene doble controladora activa (si una placa madre se quema, la otra sigue funcionando sin cortes). Además, usa el sistema de archivos ZFS y un entorno RAID 6, lo que significa que aunque se rompan dos discos a la vez, no perdemos ni un solo vídeo, audio o dato de la base de datos.
-- 2x Switches de Red (Cisco Catalyst 9300 - 1U cada uno): Se encargan de conectar todo. Los configuramos en modo *Stack* (apilados físicamente). Así, la red los ve como un único switch gigante; si uno se apaga o falla, el otro absorbe todo el tráfico al instante para que la empresa no se quede colgada.
-- 2x Patch Panels Cat6A (24 puertos - 1U cada uno): Sirven para organizar el cableado que viene de fuera del rack antes de conectarlo a los switches Cisco, protegiendo los puertos de estos últimos contra el desgaste de conectar y desconectar. Soporta velocidades de hasta 10 Gbps, algo fundamental para que las pruebas de ancho de banda salgan perfectas.
+- 2x Servidores Host (Dell PowerEdge R760 - 2U cada uno): 
+Son las dos máquinas principales donde irá el hipervisor para crear las máquinas virtuales. Llevan fuentes redundantes con certificación Titanium para no gastar luz de más (sostenibilidad) y tarjetas de red dobles a 10 Gbps para que no haya cuellos de botella.
+- 1x Cabina de Almacenamiento Centralizado (QNAP Enterprise ZFS NAS ES1642dc - 3U): 
+Aquí es donde guardaremos todos los datos de la empresa de forma centralizada. Elegimos este modelo porque tiene doble controladora activa (si una placa madre se quema, la otra sigue funcionando sin cortes). Además, usa el sistema de archivos ZFS y un entorno RAID 6, lo que significa que aunque se rompan dos discos a la vez, no perdemos ni un solo vídeo, audio o dato de la base de datos.
+- 2x Switches de Red (Cisco Catalyst 9300 - 1U cada uno): 
+Se encargan de conectar todo. Los configuramos en modo *Stack* (apilados físicamente). Así, la red los ve como un único switch gigante; si uno se apaga o falla, el otro absorbe todo el tráfico al instante para que la empresa no se quede colgada.
+- 2x Patch Panels Cat6A (24 puertos - 1U cada uno): 
+Sirven para organizar el cableado que viene de fuera del rack antes de conectarlo a los switches Cisco, protegiendo los puertos de estos últimos contra el desgaste de conectar y desconectar. Soporta velocidades de hasta 10 Gbps, algo fundamental para que las pruebas de ancho de banda salgan perfectas.
 
 ### 1.2.2. Distribución Espacial de los Racks (Estructuración)
 
@@ -777,7 +767,8 @@ eyJ2ZXIiOiI4LjE0LjAiLCJhZHIiOlsiMTcyLjMxLjI0LjIzMDo5MjAwIl0sImZnciI6Ijc2N2IyNTBi
 
 —---------------------------------------------------------------------------------
 
-Ahora haremos que el servicio elasticsearch se levante solo cada que iniciemos la máquina sin la necesidad de tener que ejecutar un script para activarlo, para ello creamos un archivo del elasticsearch en la ruta etc/systemd/system/elasticsearch.serviceDentro de ese fichero tendrá esta configuración.
+Ahora haremos que el servicio elasticsearch se levante solo cada que iniciemos la máquina sin la necesidad de tener que ejecutar un script para activarlo, para ello creamos un archivo del elasticsearch en la ruta etc/systemd/system/elasticsearch.service
+Dentro de ese fichero tendrá esta configuración.
 
 **Description:** El nombre del programa que veremos al hacer un status.
 
@@ -1137,7 +1128,8 @@ Al transmitir el vídeo por fascículos en lugar de descargar el archivo entero,
 
 Lanzamos la instancia para el servidor de Video Streaming el cual usaremos
 
-**Ubuntu 24.04** → Ya que es estable**t3.medium** **→** Para el servidor de video streaming creemos que con 2cpu y 4 de ram para nuestro entorno es suficiente
+**Ubuntu 24.04** → Ya que es estable
+**t3.medium** **→** Para el servidor de video streaming creemos que con 2cpu y 4 de ram para nuestro entorno es suficiente
 
 **Grupo de seguridad** → Es uno nuevo con diferentes reglas de entrada
 
@@ -1165,7 +1157,8 @@ A continuación creamos dos carpetas separadas, en **/vod** guardaremos los arch
 
 
 
-Luego pasamos a editar el archivo de configuración de nginx para agregar un bloque.**rtmp {}** → RTMP(Real Time Messaging Protocol), Activa el motor multimedia de nginx para procesar video, independientemente de la web normal
+Luego pasamos a editar el archivo de configuración de nginx para agregar un bloque.
+**rtmp {}** → RTMP(Real Time Messaging Protocol), Activa el motor multimedia de nginx para procesar video, independientemente de la web normal
 
 **server {}** → Define un servidor virtual para gestionar el streaming
 
