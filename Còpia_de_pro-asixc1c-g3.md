@@ -1,3 +1,56 @@
+# Índice
+
+- [1.Infraestructura del Centro de Procesamiento de Datos (CPD)](#1infraestructura-del-centro-de-procesamiento-de-datos-cpd)
+  - [1.1 Diseño Arquitectónico y Ubicación Física](#11-diseo-arquitectnico-y-ubicacin-fsica)
+    - [1.1.1.	Ubicación de la Sala y Justificación](#111-ubicacin-de-la-sala-y-justificacin)
+    - [1.1.2.Medidas de Ocultación de la Infraestructura](#112medidas-de-ocultacin-de-la-infraestructura)
+    - [1.1.3.	Sistema de Climatización, Rangos Ambientales y Calidad del Aire](#113-sistema-de-climatizacin-rangos-ambientales-y-calidad-del-aire)
+    - [1.1.4.	Especificaciones del Suelo y Techo Técnico](#114-especificaciones-del-suelo-y-techo-tcnico)
+    - [1.1.5.	Planos de Planta y Distribución de la Sala](#115-planos-de-planta-y-distribucin-de-la-sala)
+  - [1.2 Infraestructura IT y Distribución de Racks](#12-infraestructura-it-y-distribucin-de-racks)
+    - [1.2.1. Inventario de Hardware Físico (Servidores, Switches y Patch Panels)](#121-inventario-de-hardware-fsico-servidores-switches-y-patch-panels)
+    - [1.2.2. Distribución Espacial de los Racks (Estructuración)](#122-distribucin-espacial-de-los-racks-estructuracin)
+    - [1.2.3. Gestión del Cableado Estructurado](#123-gestin-del-cableado-estructurado)
+    - [1.2.4. Diagramas de Alzado de los Racks](#124-diagramas-de-alzado-de-los-racks)
+  - [1.3 Infraestructura Eléctrica y Continuidad de Negocio](#13-infraestructura-elctrica-y-continuidad-de-negocio)
+    - [1.3.1. Diseño de la Alimentación Redundante](#131-diseo-de-la-alimentacin-redundante)
+    - [1.3.2. Memoria de Cálculo de la Carga en Vatios (W) y Voltiamperios (VA)](#132-memoria-de-clculo-de-la-carga-en-vatios-w-y-voltiamperios-va)
+    - [1.3.3. Dimensionamiento del Sistema de Alimentación Ininterrumpida (SAI)](#133-dimensionamiento-del-sistema-de-alimentacin-ininterrumpida-sai)
+    - [1.3.4. Justificación del Tiempo de Autonomía de las Baterías](#134-justificacin-del-tiempo-de-autonoma-de-las-bateras)
+  - [1.4 Seguridad y Prevención de Riesgos Laborales](#14-seguridad-y-prevencin-de-riesgos-laborales)
+    - [1. Seguridad Física](#1-seguridad-fsica)
+    - [2. Seguridad Lógica](#2-seguridad-lgica)
+    - [3. Medidas de prevención de riesgos laborales](#3-medidas-de-prevencin-de-riesgos-laborales)
+  - [Nube 2. Despliegue de la Infraestructura Lógica en el Núvol (AWS)](#nube-2-despliegue-de-la-infraestructura-lgica-en-el-nvol-aws)
+    - [2.1 Arquitectura de Red Virtual (VPC) y Seguridad Lógica](#21-arquitectura-de-red-virtual-vpc-y-seguridad-lgica)
+    - [2.2 Implementación de Servicios en Instancias EC2](#22-implementacin-de-servicios-en-instancias-ec2)
+    - [2.3 Automatización, Accesos y Gestión de Configuración](#23-automatizacin-accesos-y-gestin-de-configuracin)
+  - [3. Implantación de Servicios Multimedia y Redes](#3-implantacin-de-servicios-multimedia-y-redes)
+    - [3.1. Servicio de Distribución de Audio Streaming](#31-servicio-de-distribucin-de-audio-streaming)
+    - [3.2. Servicio de Vídeo Streaming y Videoconferencia](#32-servicio-de-vdeo-streaming-y-videoconferencia)
+    - [3.3. Pruebas Transversales de Rendimiento y Ancho de Banda](#33-pruebas-transversales-de-rendimiento-y-ancho-de-banda)
+- [4. Diseño y Administración de la Base de Datos](#4-diseo-y-administracin-de-la-base-de-datos)
+  - [4.1 Diseño de la base de datos](#41-diseo-de-la-base-de-datos)
+    - [1. Diseño diagrama Entidad-Relación](#1-diseo-diagrama-entidad-relacin)
+    - [2. Diseño del modelo relacional](#2-diseo-del-modelo-relacional)
+  - [4.2 Implementación de la base de datos](#42-implementacin-de-la-base-de-datos)
+    - [1. Elección del SGBD](#1-eleccin-del-sgbd)
+    - [2. Creación de la BBDD](#2-creacin-de-la-bbdd)
+  - [4.3 Gestión de usuarios, roles y permisos](#43-gestin-de-usuarios-roles-y-permisos)
+    - [1. Definición de roles](#1-definicin-de-roles)
+    - [2. Script para automatizar la creación de usuarios](#2-script-para-automatizar-la-creacin-de-usuarios)
+  - [4.4 Triggers para control de accesos y Auditoría](#44-triggers-para-control-de-accesos-y-auditora)
+    - [1. Control de cuotas de los usuarios](#1-control-de-cuotas-de-los-usuarios)
+    - [2. Tabla de avisos y auditoría](#2-tabla-de-avisos-y-auditora)
+    - [3. Gestión de bloqueo de usuarios](#3-gestin-de-bloqueo-de-usuarios)
+  - [4.5 Eventos periódicos - Backup](#45-eventos-peridicos---backup)
+- [5. Sostenibilidad, Gestión del Cambio y Transformación Digital](#5-sostenibilidad-gestin-del-cambio-y-transformacin-digital)
+  - [5.1. Evaluación del Impacto de Seguridad e Importancia de las Datos](#51-evaluacin-del-impacto-de-seguridad-e-importancia-de-las-datos)
+  - [5.2. Optimización Tecnológica y Transformación Digital](#52-optimizacin-tecnolgica-y-transformacin-digital)
+  - [6. Entregables Multimedia e Incidencias](#6-entregables-multimedia-e-incidencias)
+
+---
+
  Projecte Transversal
 
 - **Nombre del proyecto: pro-asixc1c-g3**
@@ -115,10 +168,14 @@ Para montar la infraestructura de Innovate Tech, la idea clave es no cometer el 
 
 Este es el hardware real que vamos a meter en el CPD:
 
-- 2x Servidores Host (Dell PowerEdge R760 - 2U cada uno): Son las dos máquinas principales donde irá el hipervisor para crear las máquinas virtuales. Llevan fuentes redundantes con certificación Titanium para no gastar luz de más (sostenibilidad) y tarjetas de red dobles a 10 Gbps para que no haya cuellos de botella.
-- 1x Cabina de Almacenamiento Centralizado (QNAP Enterprise ZFS NAS ES1642dc - 3U): Aquí es donde guardaremos todos los datos de la empresa de forma centralizada. Elegimos este modelo porque tiene doble controladora activa (si una placa madre se quema, la otra sigue funcionando sin cortes). Además, usa el sistema de archivos ZFS y un entorno RAID 6, lo que significa que aunque se rompan dos discos a la vez, no perdemos ni un solo vídeo, audio o dato de la base de datos.
-- 2x Switches de Red (Cisco Catalyst 9300 - 1U cada uno): Se encargan de conectar todo. Los configuramos en modo *Stack* (apilados físicamente). Así, la red los ve como un único switch gigante; si uno se apaga o falla, el otro absorbe todo el tráfico al instante para que la empresa no se quede colgada.
-- 2x Patch Panels Cat6A (24 puertos - 1U cada uno): Sirven para organizar el cableado que viene de fuera del rack antes de conectarlo a los switches Cisco, protegiendo los puertos de estos últimos contra el desgaste de conectar y desconectar. Soporta velocidades de hasta 10 Gbps, algo fundamental para que las pruebas de ancho de banda salgan perfectas.
+- 2x Servidores Host (Dell PowerEdge R760 - 2U cada uno): 
+Son las dos máquinas principales donde irá el hipervisor para crear las máquinas virtuales. Llevan fuentes redundantes con certificación Titanium para no gastar luz de más (sostenibilidad) y tarjetas de red dobles a 10 Gbps para que no haya cuellos de botella.
+- 1x Cabina de Almacenamiento Centralizado (QNAP Enterprise ZFS NAS ES1642dc - 3U): 
+Aquí es donde guardaremos todos los datos de la empresa de forma centralizada. Elegimos este modelo porque tiene doble controladora activa (si una placa madre se quema, la otra sigue funcionando sin cortes). Además, usa el sistema de archivos ZFS y un entorno RAID 6, lo que significa que aunque se rompan dos discos a la vez, no perdemos ni un solo vídeo, audio o dato de la base de datos.
+- 2x Switches de Red (Cisco Catalyst 9300 - 1U cada uno): 
+Se encargan de conectar todo. Los configuramos en modo *Stack* (apilados físicamente). Así, la red los ve como un único switch gigante; si uno se apaga o falla, el otro absorbe todo el tráfico al instante para que la empresa no se quede colgada.
+- 2x Patch Panels Cat6A (24 puertos - 1U cada uno): 
+Sirven para organizar el cableado que viene de fuera del rack antes de conectarlo a los switches Cisco, protegiendo los puertos de estos últimos contra el desgaste de conectar y desconectar. Soporta velocidades de hasta 10 Gbps, algo fundamental para que las pruebas de ancho de banda salgan perfectas.
 
 ### 1.2.2. Distribución Espacial de los Racks (Estructuración)
 
@@ -724,7 +781,8 @@ eyJ2ZXIiOiI4LjE0LjAiLCJhZHIiOlsiMTcyLjMxLjI0LjIzMDo5MjAwIl0sImZnciI6Ijc2N2IyNTBi
 
 —---------------------------------------------------------------------------------
 
-Ahora haremos que el servicio elasticsearch se levante solo cada que iniciemos la máquina sin la necesidad de tener que ejecutar un script para activarlo, para ello creamos un archivo del elasticsearch en la ruta etc/systemd/system/elasticsearch.serviceDentro de ese fichero tendrá esta configuración.
+Ahora haremos que el servicio elasticsearch se levante solo cada que iniciemos la máquina sin la necesidad de tener que ejecutar un script para activarlo, para ello creamos un archivo del elasticsearch en la ruta etc/systemd/system/elasticsearch.service
+Dentro de ese fichero tendrá esta configuración.
 
 **Description:** El nombre del programa que veremos al hacer un status.
 
@@ -1084,7 +1142,8 @@ Al transmitir el vídeo por fascículos en lugar de descargar el archivo entero,
 
 Lanzamos la instancia para el servidor de Video Streaming el cual usaremos
 
-**Ubuntu 24.04** → Ya que es estable**t3.medium** **→** Para el servidor de video streaming creemos que con 2cpu y 4 de ram para nuestro entorno es suficiente
+**Ubuntu 24.04** → Ya que es estable
+**t3.medium** **→** Para el servidor de video streaming creemos que con 2cpu y 4 de ram para nuestro entorno es suficiente
 
 **Grupo de seguridad** → Es uno nuevo con diferentes reglas de entrada
 
@@ -1112,7 +1171,8 @@ A continuación creamos dos carpetas separadas, en **/vod** guardaremos los arch
 
 
 
-Luego pasamos a editar el archivo de configuración de nginx para agregar un bloque.**rtmp {}** → RTMP(Real Time Messaging Protocol), Activa el motor multimedia de nginx para procesar video, independientemente de la web normal
+Luego pasamos a editar el archivo de configuración de nginx para agregar un bloque.
+**rtmp {}** → RTMP(Real Time Messaging Protocol), Activa el motor multimedia de nginx para procesar video, independientemente de la web normal
 
 **server {}** → Define un servidor virtual para gestionar el streaming
 
@@ -1484,4 +1544,3 @@ De cara al futuro, se proponen tres mejoras:
 **6.1. Enlace al Vídeo Demostrativo Oficial (3 Minutos)**
 
 **6.2. Registro de Incidencias, Problemas Encontrados y Soluciones Aplicadas.**
-
