@@ -172,7 +172,7 @@ Además, puesto que nuestros cables de transmisión de datos irán por el techo 
 
 ### **1.1.5.	Planos de Planta y Distribución de la Sala** {#1.1.5.-planos-de-planta-y-distribución-de-la-sala}
 
-<img width="702" height="1092" alt="plano planta cpd-Pàgina-1 (2)" src="https://github.com/user-attachments/assets/78ccece2-36fb-405d-9d34-6b84607807ce" />
+<img width="465" height="571" alt="plano planta cpd-Pàgina-1 (2)" src="https://github.com/user-attachments/assets/78ccece2-36fb-405d-9d34-6b84607807ce" />
 <img width="715" height="1092" alt="plano planta cpd2" src="https://github.com/user-attachments/assets/d4047c25-0ea1-44ff-83e2-25ebc9b81bdc" />
 <img width="1062" height="676" alt="plano perfil cpd" src="https://github.com/user-attachments/assets/89f2f94b-e4a2-4000-bb6e-96de1f3a2b6f" />
 
