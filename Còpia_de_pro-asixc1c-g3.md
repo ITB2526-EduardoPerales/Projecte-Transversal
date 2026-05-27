@@ -53,10 +53,10 @@
 
  Projecte Transversal
 
-- **Nombre del proyecto: pro-asixc1c-g3**
-- **Miembros del grupo: Lucia Isabel Bartolomé, Eduardo Perales, Pol Guerrero, Aleshka Cisneros.**
-- **Centro: Institut Tecnològic de Barcelona (ITB)**
-- **Curso: 2025/2026**
+- Nombre del proyecto: pro-asixc1c-g3
+- Miembros del grupo: Lucia Isabel Bartolomé, Eduardo Perales, Pol Guerrero, Aleshka Cisneros.
+- Centro: Institut Tecnològic de Barcelona (ITB)
+- Curso: 2025/2026
 
 ## 
 
@@ -266,7 +266,7 @@ El APC SRT2200RMXLI incluye de serie ~17 Ah a 48 V. Con el módulo externo APC S
 
 ## 1.4 Seguridad y Prevención de Riesgos Laborales
 
-### **1. Seguridad Física**
+### 1. Seguridad Física
 
 La seguridad física del centro de datos tiene por objeto proteger los equipos, los datos y al personal frente al acceso no autorizado, los incidentes ambientales y las situaciones de emergencia. A continuación se detalla el diseño propuesto para cada sección.
 
@@ -274,7 +274,7 @@ La seguridad física del centro de datos tiene por objeto proteger los equipos, 
 
 Con el fin de restringir el acceso al centro de datos únicamente al personal autorizado y de mantener un registro trazable de todas las operaciones de acceso, se implantará un sistema de control de acceso MFA basado en la autenticación por capas.
 
-1. **Contraseña**
+1. Contraseña
 
 La primera capa de seguridad consistirá en una contraseña personal asociada a cada usuario. Esto permite iniciar el proceso de autenticación y desbloquea el acceso al sistema de validación física.
 
@@ -284,11 +284,11 @@ Las contraseñas deben cumplir con las políticas de seguridad:
 - Combinación de carácteres
 - No incluir información personal
 - Caducidad periódica
-1. **Tarjeta RFID**
+1. Tarjeta RFID
 
 Tras validar la contraseña, el usuario debe utilizar una tarjeta RFID personal e intransferible. Esta tarjeta identifica al empleado en el sistema y registra automáticamente el acceso. 
 
-1. **Lector biométrico de huella dactilar**
+1. Lector biométrico de huella dactilar
 
 Por último, será necesaria la validación biométrica mediante huella dactilar. Este sistema confirma físicamente la identidad de la persona y evita el acceso fraudulento con tarjetas robadas o compartidas. 
 
@@ -296,21 +296,21 @@ Por último, será necesaria la validación biométrica mediante huella dactilar
 
 Para complementar el control de acceso y proporcionar pruebas visuales en caso de incidentes, se propone la instalación de un sistema de videovigilancia con cámaras IP de alta definición, diseñado para garantizar una cobertura total de todas las zonas críticas, especialmente los pasillos de aire y las zonas de manipulación de racks. Se instalarán un mínimo de cuatro cámaras IP, conectadas a la red interna y a un grabador de vídeo en red (NVR).
 
-**Cámara 1 - Puerta: **
+Cámara 1 - Puerta: 
 
 Supervisa las entradas y salidas.
 
 Permite verificar visualmente quién accede a la zona.
 
-**Cámaras 2 y 4 - Pasillos calientes: **
+Cámaras 2 y 4 - Pasillos calientes: 
 
 Supervisa el cableado, la PDU y la zona de conexiones.
 
-**Cámara 3 - Pasillo frío: **
+Cámara 3 - Pasillo frío: 
 
 Supervisa todas las operaciones de mantenimiento, la manipulación de servidores y las intervenciones técnicas.
 
-**Especificaciones técnicas recomendadas: **
+Especificaciones técnicas recomendadas: 
 
 - Resolución mínima de 1080p
 - Visión nocturna por infrarrojos (IR)
@@ -321,44 +321,44 @@ Supervisa todas las operaciones de mantenimiento, la manipulación de servidores
 
 Los centros de datos son espacios con una alta concentración de equipos electrónicos y un elevado consumo energético, lo que aumenta el riesgo de incendio. Por este motivo, la protección contra incendios debe diseñarse de tal forma que se minimice tanto el riesgo de que se produzca un incendio como los daños causados por su extinción.
 
-**Prevención **
+Prevención 
 
-**Revisión de las instalaciones y los equipos eléctricos**
+Revisión de las instalaciones y los equipos eléctricos
 
 - Inspección periódica de los cuadros eléctricos, los SAI (sistemas de alimentación ininterrumpida), las PDU y el cableado.
 - Comprobación de posibles sobrecargas, conexiones defectuosas o calentamiento anormal.
 
-**Control de temperatura y humedad**
+Control de temperatura y humedad
 
 Se mantendrán unas condiciones ambientales adecuadas para evitar la condensación, la generación de electricidad estática y el sobrecalentamiento de los equipos.
 
 - Temperatura ideal: entre 18 y 27 °C
 - Humedad relativa: entre el 40 y el 60 %
 
-**Limpieza y control del polvo**
+Limpieza y control del polvo
 
 - Limpieza periódica de suelos y superficies para reducir la acumulación de polvo.
 - Uso de alfombrillas y suelos antiestáticos para minimizar las descargas que podrían dañar los equipos.
 
-**Formación del personal**
+Formación del personal
 
 - Formación sobre la manipulación segura de equipos eléctricos.
 - Formación sobre protocolos de evacuación.
 - Instrucciones básicas sobre cómo actuar en caso de incendio.
 - Concienciación sobre la importancia de no bloquear las salidas ni las vías de evacuación.
 
-**Detección**
+Detección
 
 Para detectar incendios en fase inicial, se instala un sistema de sensores conectados a una central de alarma, que envía alertas al personal.
 
 - Detectores ópticos de humo en el techo: detectan las partículas de humo en el aire generadas por una combustión lenta.
 - Sensores de temperatura: pueden detectar aumentos anormales de la temperatura en la estancia y activar alertas antes de que se produzca un incendio. 
 
-**Extinción**
+Extinción
 
 Dado que se trata de una sala con una alta concentración de equipos electrónicos, no es adecuado utilizar agua ni polvo químico, ya que podrían causar daños irreversibles en los servidores y la infraestructura. Por lo tanto, se propone un sistema de extinción de incendios con el gas limpio Novec 1230.
 
-**Características:**
+Características:
 
 - Extingue el fuego por sofocación y absorción de calor.
 - No deja residuos y no daña los circuitos electrónicos.
@@ -368,7 +368,7 @@ El sistema se activa automáticamente cuando los sensores detectan condiciones d
 
 El panel del sistema de alarma contra incendios se ubicará en la pared justo al lado de la puerta, desde donde se podrá comprobar el estado de los detectores, verificar las alertas y activar o silenciar las alarmas manualmente. 
 
-**Plano de los sensores**
+Plano de los sensores
 
 
 
@@ -386,11 +386,11 @@ Aunque la sala del CPD es pequeña, es fundamental garantizar una evacuación r�
 
 La sala de servidores tiene una única puerta de salida, la cual está equipada con una barra antipánico, lo que permite abrirla inmediatamente desde el interior.
 
-**Señalización fotoluminiscente**
+Señalización fotoluminiscente
 
 En el suelo hay flechas fotoluminiscentes que indican la dirección hacia la puerta.
 
-**Iluminación de emergencia**
+Iluminación de emergencia
 
 En el pasillo hay instaladas dos luces de emergencia autónomas que se activan automáticamente en caso de corte de suministro eléctrico.
 
@@ -400,7 +400,7 @@ En el pasillo hay instaladas dos luces de emergencia autónomas que se activan a
 
 Para garantizar la seguridad de los sistemas y de la información del CPD, se implantará un sistema de control de acceso de autenticación multifactorial (MFA), que consiste en verificar la identidad del usuario mediante múltiples factores de seguridad, los cuales se especifican en el apartado de seguridad física.
 
-**Registro y monitorización de los accesos**
+Registro y monitorización de los accesos
 
 Todos los accesos se registrarán automáticamente en una base de datos centralizada con la siguiente información:
 
@@ -410,48 +410,48 @@ Todos los accesos se registrarán automáticamente en una base de datos centrali
 
 Esta información puede utilizarse para realizar auditorías de seguridad, ya que facilita comprobar si los accesos corresponden con las tareas programadas y garantiza el cumplimiento de las políticas internas. También resulta útil en la investigación de incidentes, ya que permite identificar quién se encontraba en la sala de servidores en un momento determinado o si se han producido intentos de acceso no autorizados.
 
-**Política de acceso**
+Política de acceso
 
-- **Personal autorizado:** únicamente técnicos de sistemas, responsables de TI y personal de mantenimiento debidamente acreditados.
-- **Acceso restringido las 24 horas del día, los 7 días de la semana:** se puede acceder a la sala de servidores en cualquier momento, pero el acceso debe registrarse siempre en el sistema de control de accesos.
-- **Personal externo:** cualquier proveedor externo o visitante debe ir siempre acompañado de personal interno autorizado, y su acceso también debe registrarse.
+- Personal autorizado: únicamente técnicos de sistemas, responsables de TI y personal de mantenimiento debidamente acreditados.
+- Acceso restringido las 24 horas del día, los 7 días de la semana: se puede acceder a la sala de servidores en cualquier momento, pero el acceso debe registrarse siempre en el sistema de control de accesos.
+- Personal externo: cualquier proveedor externo o visitante debe ir siempre acompañado de personal interno autorizado, y su acceso también debe registrarse.
 
 #### Firewall
 
 Los firewall son elementos fundamentales para proteger la infraestructura de red del centro de datos frente al malware o los intentos de intrusión. Por este motivo, se implementarán los siguientes niveles:
 
-- **Firewall perimetral: **controla todas las conexiones entrantes y salientes de la red, bloqueando los intentos de acceso externo no autorizados y aplicando políticas de seguridad predefinidas.
-- **Firewall interno por segmentación:** permite separar los servicios y evita que un incidente de seguridad en un sistema se propague fácilmente al resto de la infraestructura.
-- **Listas de control de acceso (ACL):** permiten controlar qué tráfico se permite dentro de la red. 
+- Firewall perimetral: controla todas las conexiones entrantes y salientes de la red, bloqueando los intentos de acceso externo no autorizados y aplicando políticas de seguridad predefinidas.
+- Firewall interno por segmentación: permite separar los servicios y evita que un incidente de seguridad en un sistema se propague fácilmente al resto de la infraestructura.
+- Listas de control de acceso (ACL): permiten controlar qué tráfico se permite dentro de la red. 
 
 #### Monitorización
 
 La supervisión del centro de datos permite un control constante de los servidores, la red y los sistemas de seguridad para detectar cualquier incidente de forma inmediata, antes de que afecte al funcionamiento de la infraestructura. 
 
-- **Sistema SIEM y registros centralizados: **el CPD contará con un sistema SIEM (Security Information and Event Management) encargado de recopilar y analizar los registros generados, que se enviarán a un servidor de registros centralizado, lo que permitirá conservar un historial completo de las acciones y los eventos que se producen dentro de la infraestructura. 
-- **Alertas en tiempo real: **cuando se detecte un incidente o una actividad sospechosa, se generarán alertas automáticas en tiempo real que se enviarán a los administradores del centro de datos. 
+- Sistema SIEM y registros centralizados: el CPD contará con un sistema SIEM (Security Information and Event Management) encargado de recopilar y analizar los registros generados, que se enviarán a un servidor de registros centralizado, lo que permitirá conservar un historial completo de las acciones y los eventos que se producen dentro de la infraestructura. 
+- Alertas en tiempo real: cuando se detecte un incidente o una actividad sospechosa, se generarán alertas automáticas en tiempo real que se enviarán a los administradores del centro de datos. 
 
 #### Copias de seguridad (Backups)
 
-**Estrategia 3-2-1**
+Estrategia 3-2-1
 
 La infraestructura seguirá la estrategia 3-2-1 para reducir el riesgo de pérdida de datos. Esta política consiste en mantener tres copias de la información, utilizando dos soportes de almacenamiento diferentes y conservando una copia fuera de las instalaciones. 
 
-**Copias de seguridad**
+Copias de seguridad
 
 Para garantizar la recuperación de la información en caso de cualquier incidente, el centro de datos realizará copias de seguridad periódicamente:
 
-- **Diarias (incrementales):** solo se guardan los archivos modificados desde la última copia de seguridad, lo que reduce el espacio necesario y el tiempo requerido para completar el proceso. 
-- **Semanal (completa):** se generará una copia completa de todos los servidores y servicios principales para proporcionar un punto de restauración completo en caso de que sea necesario recuperar el sistema entero. 
-- **Mensual (fuera de las instalaciones):** se guardará una copia fuera del centro de datos, ya sea en otro CPD o en la nube. 
+- Diarias (incrementales): solo se guardan los archivos modificados desde la última copia de seguridad, lo que reduce el espacio necesario y el tiempo requerido para completar el proceso. 
+- Semanal (completa): se generará una copia completa de todos los servidores y servicios principales para proporcionar un punto de restauración completo en caso de que sea necesario recuperar el sistema entero. 
+- Mensual (fuera de las instalaciones): se guardará una copia fuera del centro de datos, ya sea en otro CPD o en la nube. 
 
 #### RAID
 
 Se utilizarán sistemas RAID en los servidores del centro de datos para aumentar la disponibilidad de los datos y reducir el riesgo de interrupción del servicio en caso de fallo de un disco duro. 
 
-**RAID 5:** distribuirá los datos y la información de paridad entre varias unidades.
+RAID 5: distribuirá los datos y la información de paridad entre varias unidades.
 
-**RAID 10: **replica los datos en diferentes discos y distribuye la carga de trabajo.
+RAID 10: replica los datos en diferentes discos y distribuye la carga de trabajo.
 
 Esta configuración permite que los servicios permanezcan activos incluso en caso de fallos en los discos y al mismo tiempo que garantiza un acceso a los datos a alta velocidad.
 
@@ -463,7 +463,7 @@ Una de las principales fuentes de riesgo dentro del centro de datos es la infrae
 
 Para reducir estos riesgos, cualquier trabajo en equipos eléctricos debe ser realizado únicamente por personal autorizado y formado. Además, antes de manipular determinados componentes, el equipo debe desconectarse de forma segura siempre que sea posible.
 
-**El personal técnico debe utilizar:**
+El personal técnico debe utilizar:
 
 - Guantes dieléctricos.
 - Herramientas aisladas.
@@ -485,7 +485,7 @@ Para reducir la exposición, se recomienda limitar el tiempo que se pasa dentro 
 
 La distribución del CPD se diseñará de manera que los técnicos puedan trabajar de forma segura y cómoda. Los pasillos entre los racks serán lo suficientemente amplios como para facilitar el desplazamiento y las tareas de mantenimiento. Además, se recomienda el uso de carritos y herramientas de apoyo para mover servidores o componentes pesados, con el fin de prevenir lesiones musculoesqueléticas. 
 
-**También se controlarán otros aspectos como:**
+También se controlarán otros aspectos como:
 
 - La iluminación adecuada en la sala.
 - La organización del cableado en los racks para evitar cables sueltos en el suelo.
@@ -689,13 +689,13 @@ Creamos el usuario edug3
 
 Desplegamos una máquina virtual VM-03 en AWS que nos servirá para centrar los logs, esta máquina tendrá como hardware virtual lo siguiente.
 
-**AMI** → Ubuntu server 24.04 LTS ya que es la más estable, tiene larga duración de soporte y su compatibilidad.
+AMI → Ubuntu server 24.04 LTS ya que es la más estable, tiene larga duración de soporte y su compatibilidad.
 
-**Tipo de instancia** → t3.medium, escogemos este ya que para nuestro proyecto necesitamos algo que nos vaya bien para los 7 servicios sin saturarse.
+Tipo de instancia → t3.medium, escogemos este ya que para nuestro proyecto necesitamos algo que nos vaya bien para los 7 servicios sin saturarse.
 
-**Grupo de seguridad** → Por el momento escogemos el grupo de seguridad por defecto pero más adelante tenemos que cambiarlo para asegurar que los servidores se comuniquen y garantizar su correcto funcionamiento.
+Grupo de seguridad → Por el momento escogemos el grupo de seguridad por defecto pero más adelante tenemos que cambiarlo para asegurar que los servidores se comuniquen y garantizar su correcto funcionamiento.
 
-**Almacenamiento** → Para nuestro entorno reducido escogemos 30 GB
+Almacenamiento → Para nuestro entorno reducido escogemos 30 GB
 
 
 
@@ -709,7 +709,7 @@ Primeramente comenzamos con la instalación de Elasticsearch y Kibana, en el ser
 
 Descargamos el paquete de Elasticsearch y kibana desde la web con wget, para ambos servicios descargamos la versión 9.4.1 porque es la más estable y segura hasta el momento para este entorno de producción.
 
-- **Elasticsearch**
+- Elasticsearch
 
 
 
@@ -770,23 +770,23 @@ eyJ2ZXIiOiI4LjE0LjAiLCJhZHIiOlsiMTcyLjMxLjI0LjIzMDo5MjAwIl0sImZnciI6Ijc2N2IyNTBi
 Ahora haremos que el servicio elasticsearch se levante solo cada que iniciemos la máquina sin la necesidad de tener que ejecutar un script para activarlo, para ello creamos un archivo del elasticsearch en la ruta etc/systemd/system/elasticsearch.service
 Dentro de ese fichero tendrá esta configuración.
 
-**Description:** El nombre del programa que veremos al hacer un status.
+Description: El nombre del programa que veremos al hacer un status.
 
-**After=network.target:** Le prohíbe arrancar hasta que el servidor de AWS tenga internet e IP, evitando errores de conexión.
+After=network.target: Le prohíbe arrancar hasta que el servidor de AWS tenga internet e IP, evitando errores de conexión.
 
-**Type=simple:** Le dice a Linux que el programa se queda abierto controlando el proceso.
+Type=simple: Le dice a Linux que el programa se queda abierto controlando el proceso.
 
-**User/Group=edug3: **Corre con el usuario edug3 y no como root para que nadie pueda hackear todo el servidor desde fuera.
+User/Group=edug3: Corre con el usuario edug3 y no como root para que nadie pueda hackear todo el servidor desde fuera.
 
-**ExecStart:** La ruta exacta del archivo que enciende el Elasticsearch portátil.
+ExecStart: La ruta exacta del archivo que enciende el Elasticsearch portátil.
 
-**Restart=on-failure:** Si el servicio se apaga por un fallo o falta de RAM, Linux lo vuelve a encender solo.
+Restart=on-failure: Si el servicio se apaga por un fallo o falta de RAM, Linux lo vuelve a encender solo.
 
-**LimitNOFILE=65535:** Le permite abrir miles de archivos de datos a la vez sin que Linux lo cape.
+LimitNOFILE=65535: Le permite abrir miles de archivos de datos a la vez sin que Linux lo cape.
 
-**LimitNPROC=4096: **Le permite usar hasta 4096 hilos de la CPU para procesar búsquedas rápido.
+LimitNPROC=4096: Le permite usar hasta 4096 hilos de la CPU para procesar búsquedas rápido.
 
-**LimitMEMLOCK=infinity:** Bloquea los datos en la memoria RAM para que no se muevan al disco, manteniendo la velocidad al máximo.
+LimitMEMLOCK=infinity: Bloquea los datos en la memoria RAM para que no se muevan al disco, manteniendo la velocidad al máximo.
 
 
 
@@ -824,7 +824,7 @@ Comprobamos que nos podemos conectar desde una máquina diferente por medio del 
 
 
 
-- **Kibana**
+- Kibana
 
 
 
@@ -880,19 +880,19 @@ Ahora automatizamos que al iniciar el servidor de logs el servicio kibana se ini
 
 
 
-**Description:** El nombre del servicio que verás al hacer el status
+Description: El nombre del servicio que verás al hacer el status
 
-**After=elasticsearch.service:** Le prohíbe a Kibana arrancar hasta que Elasticsearch esté encendido y listo
+After=elasticsearch.service: Le prohíbe a Kibana arrancar hasta que Elasticsearch esté encendido y listo
 
-**Type=simple:** Indica que el programa corre de forma continua en un proceso directo.
+Type=simple: Indica que el programa corre de forma continua en un proceso directo.
 
-**User/Group=edug3: **Seguridad. Corre con tu usuario normal para que nadie pueda hackear la raíz (root) del servidor.
+User/Group=edug3: Seguridad. Corre con tu usuario normal para que nadie pueda hackear la raíz (root) del servidor.
 
-**ExecStart:** La ruta exacta del archivo que enciende Kibana.
+ExecStart: La ruta exacta del archivo que enciende Kibana.
 
-**Restart=on-failure:** Si Kibana se cae o da un error, Linux lo vuelve a levantar solo.
+Restart=on-failure: Si Kibana se cae o da un error, Linux lo vuelve a levantar solo.
 
-**Environment=NODE_ENV=production:** Optimiza Node.js para que consuma menos RAM y vaya más rápido en la web.
+Environment=NODE_ENV=production: Optimiza Node.js para que consuma menos RAM y vaya más rápido en la web.
 
 
 
@@ -908,11 +908,11 @@ Y ya comprobamos que está como un servicio
 
 
 
-**CLIENTE - Auditbeat**
+CLIENTE - Auditbeat
 
 Este proceso se hará en todos los servidores para poder recopilar sus logs, en este caso se puede ver como se hace el proceso de instalación desde un servidor pero los demás servidores siguen el mismo modelo
 
-Instalamos** **el paquete auditbeat
+Instalamos el paquete auditbeat
 
 
 
@@ -944,7 +944,7 @@ Confirmamos que el servicio de auditbeat tiene conexión y que el archivo .yml e
 
 
 
-**Comprobamos que nos deja acceder poniendo en la barra del buscador esto: http://52.7.181.195:5601 y ponemos el usuario y contraseña que nos ha facilitado el administrador de logs.**
+Comprobamos que nos deja acceder poniendo en la barra del buscador esto: http://52.7.181.195:5601 y ponemos el usuario y contraseña que nos ha facilitado el administrador de logs.
 
 
 
@@ -996,9 +996,9 @@ Aquí se puede ver como queda todo registrado en los logs de kibana.
 
 #### 2.3.2. Gestión de Usuarios de Administración y Políticas de Llave Pública/Privada
 
-## **3. Implantación de Servicios Multimedia y Redes**
+## 3. Implantación de Servicios Multimedia y Redes
 
-### **3.1. Servicio de Distribución de Audio Streaming**
+### 3.1. Servicio de Distribución de Audio Streaming
 
 #### 3.1.1. Descripción de la Funcionalidad del Servicio de Audio
 
@@ -1110,7 +1110,7 @@ La primera es que debe arrancarse cuando icecast2 esté listo, pues el liquidsoa
 
 #### 3.1.4. Pruebas de Validación, Acceso Web y Multi-cliente (Evidencias)
 
-### **3.2. Servicio de Vídeo Streaming y Videoconferencia**
+### 3.2. Servicio de Vídeo Streaming y Videoconferencia
 
 #### 3.2.1. Descripción de la Funcionalidad del Servicio de Vídeo
 
@@ -1118,9 +1118,9 @@ El servicio implementa un modelo de Vídeo bajo Demanda, diseñado para distribu
 
 Su funcionamiento se basa en la cooperación de dos herramientas:
 
-- **FFMPEG**: Coge los vídeos originales (.mp4), los codifica en el estándar universal H.264 y los fragmenta en bloques de 3 segundos (.ts), creando un archivo de índice (.m3u8) que actúa como mapa del contenido.
+- FFMPEG: Coge los vídeos originales (.mp4), los codifica en el estándar universal H.264 y los fragmenta en bloques de 3 segundos (.ts), creando un archivo de índice (.m3u8) que actúa como mapa del contenido.
 
-- **Nginx**: Actúa como servidor de transferencia utilizando el protocolo HLS (HTTP Live Streaming), encargándose de entregar los fragmentos de vídeo a los clientes a medida que los van reproduciendo.
+- Nginx: Actúa como servidor de transferencia utilizando el protocolo HLS (HTTP Live Streaming), encargándose de entregar los fragmentos de vídeo a los clientes a medida que los van reproduciendo.
 
 Al transmitir el vídeo por fascículos en lugar de descargar el archivo entero, optimizamos el ancho de banda de la infraestructura en AWS, eliminamos los tiempos de espera y permitimos que los vídeos se reproduzcan de forma nativa en cualquier navegador o integrados en la web principal.
 
@@ -1128,12 +1128,12 @@ Al transmitir el vídeo por fascículos en lugar de descargar el archivo entero,
 
 Lanzamos la instancia para el servidor de Video Streaming el cual usaremos
 
-**Ubuntu 24.04** → Ya que es estable
-**t3.medium** **→** Para el servidor de video streaming creemos que con 2cpu y 4 de ram para nuestro entorno es suficiente
+Ubuntu 24.04 → Ya que es estable
+t3.medium → Para el servidor de video streaming creemos que con 2cpu y 4 de ram para nuestro entorno es suficiente
 
-**Grupo de seguridad** → Es uno nuevo con diferentes reglas de entrada
+Grupo de seguridad → Es uno nuevo con diferentes reglas de entrada
 
-**Almacenamiento →** 30 GB es suficiente para almacenar más de un video y los usuarios puedan acceder sin saturarse
+Almacenamiento → 30 GB es suficiente para almacenar más de un video y los usuarios puedan acceder sin saturarse
 
 
 
@@ -1141,7 +1141,7 @@ Lanzamos la instancia para el servidor de Video Streaming el cual usaremos
 
 
 
-Luego nos conectamos mediante ssh y continuamos con las instalación, primeramente instalaremos el servicio nginx pero en este caso para video, usamos nginx ya que es el que usa menos CPU y RAM al gestionar las conexiones. Además añadimos el módulo **libnginx-mod-rtmp**, este módulo le añade la capacidad de entender protocolos multimedia en tiempo real, lo que hace que sea un servidor de streaming. También añadimos el módulo **ffmpeg** para que nos ayude a preparar y trocear el video y que los reproductores modernos lo puedan leer.
+Luego nos conectamos mediante ssh y continuamos con las instalación, primeramente instalaremos el servicio nginx pero en este caso para video, usamos nginx ya que es el que usa menos CPU y RAM al gestionar las conexiones. Además añadimos el módulo libnginx-mod-rtmp, este módulo le añade la capacidad de entender protocolos multimedia en tiempo real, lo que hace que sea un servidor de streaming. También añadimos el módulo ffmpeg para que nos ayude a preparar y trocear el video y que los reproductores modernos lo puedan leer.
 
 
 
@@ -1149,7 +1149,7 @@ Luego nos conectamos mediante ssh y continuamos con las instalación, primeramen
 
 
 
-A continuación creamos dos carpetas separadas, en **/vod** guardaremos los archivos originales completos mientras que en **/hls** es donde nginx creará y destruirá los trozos temporales de video en tiempo real. Como Nginx corre con el usuario **www-data** entonces es importante cambiarle el propietario a **/var/www/html** para luego no tener problema de permisos
+A continuación creamos dos carpetas separadas, en /vod guardaremos los archivos originales completos mientras que en /hls es donde nginx creará y destruirá los trozos temporales de video en tiempo real. Como Nginx corre con el usuario www-data entonces es importante cambiarle el propietario a /var/www/html para luego no tener problema de permisos
 
 
 
@@ -1158,25 +1158,25 @@ A continuación creamos dos carpetas separadas, en **/vod** guardaremos los arch
 
 
 Luego pasamos a editar el archivo de configuración de nginx para agregar un bloque.
-**rtmp {}** → RTMP(Real Time Messaging Protocol), Activa el motor multimedia de nginx para procesar video, independientemente de la web normal
+rtmp {} → RTMP(Real Time Messaging Protocol), Activa el motor multimedia de nginx para procesar video, independientemente de la web normal
 
-**server {}** → Define un servidor virtual para gestionar el streaming
+server {} → Define un servidor virtual para gestionar el streaming
 
-**listen 1935** → Abre el puerto para recibir video, es el estándar para transmisión de video en vivo
+listen 1935 → Abre el puerto para recibir video, es el estándar para transmisión de video en vivo
 
-**chunk_size 4000 → **Corta el video en paquetes de red de 4000 bytes para no saturar la cpu
+chunk_size 4000 → Corta el video en paquetes de red de 4000 bytes para no saturar la cpu
 
-**application live {}** → Crea el canal o ruta URL donde se enviará el video
+application live {} → Crea el canal o ruta URL donde se enviará el video
 
-**live on **→ Activa la emisión en directo para que muchos usuarios se conecten a la vez
+live on → Activa la emisión en directo para que muchos usuarios se conecten a la vez
 
-**hls on** → Traduce el video al protocolo HLS para que sea compatible con cualquier navegador web
+hls on → Traduce el video al protocolo HLS para que sea compatible con cualquier navegador web
 
-**hls_pat /var/www/html/hls** → La carpeta del disco donde se guardan los trozos de video para  que la web los pueda servir
+hls_pat /var/www/html/hls → La carpeta del disco donde se guardan los trozos de video para  que la web los pueda servir
 
-**hls_fragment 3s** → Corta el video en trozos de 3 segundos, evita esperas al usuario y no satura el servidor 
+hls_fragment 3s → Corta el video en trozos de 3 segundos, evita esperas al usuario y no satura el servidor 
 
-**hls_playlist_lenght 60s** → Mantiene solo el último minuto de disco para que no se llene el almacenamiento de aws
+hls_playlist_lenght 60s → Mantiene solo el último minuto de disco para que no se llene el almacenamiento de aws
 
 
 
@@ -1190,15 +1190,15 @@ Luego pasamos a editar el archivo de configuración de nginx para agregar un blo
 
 
 
-**location /hls {}** → Crea la ruta web, todo lo que pongamos en esa carpeta se podrá ver desde internet
+location /hls {} → Crea la ruta web, todo lo que pongamos en esa carpeta se podrá ver desde internet
 
-**types {}** → Es como si le dijera al navegador que el video es de streaming por lo tanto no lo descargará pero lo reproducirá en pantalla
+types {} → Es como si le dijera al navegador que el video es de streaming por lo tanto no lo descargará pero lo reproducirá en pantalla
 
-**root /var/www/html** → La ruta real del disco de aws donde se están guardados los trozos de video
+root /var/www/html → La ruta real del disco de aws donde se están guardados los trozos de video
 
-**add_header Cache-Control no-cache** → Evita que el navegador guarde el video en su memoria interna, asi el video no se queda congelado o en bucle
+add_header Cache-Control no-cache → Evita que el navegador guarde el video en su memoria interna, asi el video no se queda congelado o en bucle
 
-**add_header Access-Control-Allow-Origin *** → Le da permisos al servidor web para que pueda poner los videos que están alojados en el servidor de streaming en su página sin que el navegador lo bloquee por seguridad
+add_header Access-Control-Allow-Origin * → Le da permisos al servidor web para que pueda poner los videos que están alojados en el servidor de streaming en su página sin que el navegador lo bloquee por seguridad
 
 
 
@@ -1234,19 +1234,19 @@ Hemos escogido un video que sacamos de la página del itb para tener guardado en
 
 
 
-**-i** → Indica el archivo de video original que quiere convertir
+-i → Indica el archivo de video original que quiere convertir
 
-**-codec:v libx264** → Convierte el vídeo al formato H.264, el único estándar universal que abren todos los navegadores web del mundo sin dar errores
+-codec:v libx264 → Convierte el vídeo al formato H.264, el único estándar universal que abren todos los navegadores web del mundo sin dar errores
 
-**-codec:a aac** → Convierte el audio a formato AAC, optimizado para que pese poco y se escuche perfecto en internet
+-codec:a aac → Convierte el audio a formato AAC, optimizado para que pese poco y se escuche perfecto en internet
 
-**-f hls** → Fuerza a que el formato de salida sea HLS (streaming por fascículos)
+-f hls → Fuerza a que el formato de salida sea HLS (streaming por fascículos)
 
-**-hls_time 3** → Ordena cortar el vídeo en trozos exactos de 3 segundos
+-hls_time 3 → Ordena cortar el vídeo en trozos exactos de 3 segundos
 
-**-hls_playlist_type vod** → Le dice que es "Vídeo bajo Demanda" . El vídeo tiene un principio y un final, no es una tele en directo
+-hls_playlist_type vod → Le dice que es "Vídeo bajo Demanda" . El vídeo tiene un principio y un final, no es una tele en directo
 
-**/.../index.m3u8** → El archivo final que se genera. Es el índice de texto que contiene la lista de todos los trozos de 3 segundos (.ts). El reproductor lee este índice para saber qué trozo va detrás de cuál
+/.../index.m3u8 → El archivo final que se genera. Es el índice de texto que contiene la lista de todos los trozos de 3 segundos (.ts). El reproductor lee este índice para saber qué trozo va detrás de cuál
 
 
 
@@ -1284,21 +1284,21 @@ Comprobamos el funcionamiento del servidor de streaming y podemos ver que el que
 
 
 
-#### **3.2.3. Formatos y Códecs Utilizados (H.264 / MP4)**
+#### 3.2.3. Formatos y Códecs Utilizados (H.264 / MP4)
 
 Para que los vídeos se reproduzcan en cualquier dispositivo sin dar problemas de compatibilidad, utilizamos los estándares más eficientes de la industria:
 
-- **Contenedor .mp4:** Es el formato del archivo original que subimos al servidor. Lo elegimos porque es el más común y encapsula perfectamente el vídeo y el audio en un solo archivo.
+- Contenedor .mp4: Es el formato del archivo original que subimos al servidor. Lo elegimos porque es el más común y encapsula perfectamente el vídeo y el audio en un solo archivo.
 
-- **Códec de vídeo H.264:** Es el encargado de exprimir y comprimir el vídeo, ofrece una buena calidad de imagen ocupando muy poco espacio en el disco de AWS, además es el único que abre el 100% de los navegadores actuales de forma nativa.
+- Códec de vídeo H.264: Es el encargado de exprimir y comprimir el vídeo, ofrece una buena calidad de imagen ocupando muy poco espacio en el disco de AWS, además es el único que abre el 100% de los navegadores actuales de forma nativa.
 
-- **Códec de audio AAC:** Es el formato para el sonido, consigue una calidad de audio superior al MP3 pero pesando mucho menos, lo que ahorra ancho de banda en la red.
+- Códec de audio AAC: Es el formato para el sonido, consigue una calidad de audio superior al MP3 pero pesando mucho menos, lo que ahorra ancho de banda en la red.
 
 Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeños. Así nos aseguramos de que el vídeo pese poco, viaje rápido y se abra en cualquier pantalla a la primera.
 
 #### 3.2.4. Despliegue de la Plataforma de Videoconferencia (Jitsi Meet)
 
-**Creamos una nueva máquina y actualizamos los paquetes:  **
+Creamos una nueva máquina y actualizamos los paquetes:  
 
 
 
@@ -1306,7 +1306,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Entramos a duckdns.org y nos logueamos con la cuenta del instituto.**
+Entramos a duckdns.org y nos logueamos con la cuenta del instituto.
 
 
 
@@ -1314,7 +1314,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Una vez nos registramos nos saldrá la opción de crear un dominio, simplemente ponemos el nombre que queramos y le damos a add domain.**
+Una vez nos registramos nos saldrá la opción de crear un dominio, simplemente ponemos el nombre que queramos y le damos a add domain.
 
 
 
@@ -1322,9 +1322,9 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Una vez se crea el dominio nos saldrá esta pantalla donde solamente hemos de poner nuestra ip elástica.**
+Una vez se crea el dominio nos saldrá esta pantalla donde solamente hemos de poner nuestra ip elástica.
 
-**Y nos saldrá un aviso conforme la ip se ha cambiado correctamente para el dominio jitsimeetpol. **
+Y nos saldrá un aviso conforme la ip se ha cambiado correctamente para el dominio jitsimeetpol. 
 
 
 
@@ -1332,7 +1332,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Cambiamos el hostname:**
+Cambiamos el hostname:
 
 
 
@@ -1340,7 +1340,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Configuramos el archivo /etc/hosts poniendo nuestro dominio**
+Configuramos el archivo /etc/hosts poniendo nuestro dominio
 
 
 
@@ -1348,7 +1348,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Añadimos el repositorio de Jitsi y hacemos un sudo apt update final para actualizar todos los paquetes:**
+Añadimos el repositorio de Jitsi y hacemos un sudo apt update final para actualizar todos los paquetes:
 
 
 
@@ -1356,7 +1356,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Una vez instalamos el paquete con sudo apt install jitsi-meet -y empezamos a configurar primero poniendo el nombre de dominio:**
+Una vez instalamos el paquete con sudo apt install jitsi-meet -y empezamos a configurar primero poniendo el nombre de dominio:
 
 
 
@@ -1364,7 +1364,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Luego nos pide el tipo de certificado ssl y elegimos la opción de Let's Encrypt certificates porque es gratuito y reconocido por los navegadores sin generar avisos de seguridad.**
+Luego nos pide el tipo de certificado ssl y elegimos la opción de Let's Encrypt certificates porque es gratuito y reconocido por los navegadores sin generar avisos de seguridad.
 
 
 
@@ -1372,7 +1372,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**En la siguiente ventana nos pide un correo	 electrónico para poder emitir el certificado Let's Encrypt.**
+En la siguiente ventana nos pide un correo	 electrónico para poder emitir el certificado Let's Encrypt.
 
 
 
@@ -1380,7 +1380,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Una vez hemos acabado con la configuración verificamos que el servicio de jitsi está corriendo perfectamente.**
+Una vez hemos acabado con la configuración verificamos que el servicio de jitsi está corriendo perfectamente.
 
 
 
@@ -1388,7 +1388,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Luego añadimos estas líneas al archivo sip-communicator.properties porque Jitsi está instalado en AWS, que usa NAT. Esto significa que la VM tiene una IP privada interna pero el tráfico de vídeo necesita salir por la IP pública.**
+Luego añadimos estas líneas al archivo sip-communicator.properties porque Jitsi está instalado en AWS, que usa NAT. Esto significa que la VM tiene una IP privada interna pero el tráfico de vídeo necesita salir por la IP pública.
 
 
 
@@ -1396,7 +1396,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Y reiniciamos el servicio:**
+Y reiniciamos el servicio:
 
 
 
@@ -1404,7 +1404,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Ahora vamos al navegador y escribimos: https://jitsimeetpol.duckdns.org y como se puede ver funciona perfectamente.**
+Ahora vamos al navegador y escribimos: https://jitsimeetpol.duckdns.org y como se puede ver funciona perfectamente.
 
 
 
@@ -1412,7 +1412,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Creamos una reunión de prueba y le damos a inicia la reunión:**
+Creamos una reunión de prueba y le damos a inicia la reunión:
 
 
 
@@ -1420,7 +1420,7 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-**Aquí se puede ver lo que sería la sala: **
+Aquí se puede ver lo que sería la sala: 
 
 
 
@@ -1442,17 +1442,17 @@ Aunque partimos de un archivo .mp4, el sistema HLS lo trocea en archivos pequeñ
 
 
 
-### **3.3. Pruebas Transversales de Rendimiento y Ancho de Banda**
+### 3.3. Pruebas Transversales de Rendimiento y Ancho de Banda
 
 #### 3.3.1. Metodología de las Pruebas y Métricas (Download, Upload, Latencia)
 
-Para comprobar la velocidad real del servidor en AWS, ejecutamos la herramienta **speedtest-cli** desde la terminal. El test se realizó contra el servidor de *Pilot Fiber* en Ashburn, Virginia, obtenemos los siguientes resultados:
+Para comprobar la velocidad real del servidor en AWS, ejecutamos la herramienta speedtest-cli desde la terminal. El test se realizó contra el servidor de *Pilot Fiber* en Ashburn, Virginia, obtenemos los siguientes resultados:
 
-- **Latencia (Ping): 2.45 ms** → La respuesta del servidor es instantánea al pedir el vídeo.
+- Latencia (Ping): 2.45 ms → La respuesta del servidor es instantánea al pedir el vídeo.
 
-- **Download (Descarga): 1212.64 Mbit/s** → Velocidad de sobra para bajar actualizaciones o subir nuevos vídeos al disco.
+- Download (Descarga): 1212.64 Mbit/s → Velocidad de sobra para bajar actualizaciones o subir nuevos vídeos al disco.
 
-- **Upload (Subida): 1818.86 Mbit/s** → Es la velocidad a la que el servidor envía los trozos de vídeo.
+- Upload (Subida): 1818.86 Mbit/s → Es la velocidad a la que el servidor envía los trozos de vídeo.
 
 
 
@@ -1462,24 +1462,24 @@ Para comprobar la velocidad real del servidor en AWS, ejecutamos la herramienta 
 
 #### 3.3.2. Análisis Correlativo del Consumo Multimedia Simultáneo
 
-Sabiendo que la subida real de la máquina es de **1818.86 Mbit/s**, hacemos un cálculo rápido de capacidad:
+Sabiendo que la subida real de la máquina es de 1818.86 Mbit/s, hacemos un cálculo rápido de capacidad:
 
-- Un vídeo estándar optimizado con FFMPEG consume unos **2 Mbit/s** por usuario.
-- Dividiendo el ancho de banda total entre el consumo por alumno 1816.86/2, el servidor aguanta **909 reproducciones simultáneas**.
+- Un vídeo estándar optimizado con FFMPEG consume unos 2 Mbit/s por usuario.
+- Dividiendo el ancho de banda total entre el consumo por alumno 1816.86/2, el servidor aguanta 909 reproducciones simultáneas.
 
 Gracias a que el protocolo HLS trabaja por fascículos de 3 segundos (el navegador pide trozos a demanda y no descarga el vídeo entero de golpe), el consumo de red es progresivo y escalonado.
 
 #### 3.3.3. Dictamen de Clasificación del Sistema (Acceptable / Not Acceptable)
 
-El dictamen final es **ACEPTABLE**, el servidor Nginx responde a la perfección a la hora de repartir el contenido multimedia a los usuarios. La conexión que nos da AWS es tan rápida que evita cualquier tipo de atasco en la red. Además, el sistema de almacenamiento se comporta de forma totalmente estable, logrando que todos los archivos de vídeo se queden guardados de manera permanente y segura en el disco.
+El dictamen final es ACEPTABLE, el servidor Nginx responde a la perfección a la hora de repartir el contenido multimedia a los usuarios. La conexión que nos da AWS es tan rápida que evita cualquier tipo de atasco en la red. Además, el sistema de almacenamiento se comporta de forma totalmente estable, logrando que todos los archivos de vídeo se queden guardados de manera permanente y segura en el disco.
 
 #### 3.3.4. Propuestas Técnicas de Optimización
 
 De cara al futuro, se proponen tres mejoras:
 
-1. **Uso de AWS CloudFront (CDN):** Guardar los trozos de vídeo en servidores espejo más cercanos a España para reducir el tráfico internacional desde Virginia y acelerar la carga.
-1. **Bitrate Adaptativo (ABR):** Configurar FFMPEG para crear el vídeo en varias calidades (480p, 720p, 1080p) para que el reproductor se adapte automáticamente a la conexión de cada persona.
-1. **Activar HTTP/2 en Nginx:** Para que el navegador descargue los múltiples archivos .ts a través de una sola conexión, haciendo la carga más eficiente.
+1. Uso de AWS CloudFront (CDN): Guardar los trozos de vídeo en servidores espejo más cercanos a España para reducir el tráfico internacional desde Virginia y acelerar la carga.
+1. Bitrate Adaptativo (ABR): Configurar FFMPEG para crear el vídeo en varias calidades (480p, 720p, 1080p) para que el reproductor se adapte automáticamente a la conexión de cada persona.
+1. Activar HTTP/2 en Nginx: Para que el navegador descargue los múltiples archivos .ts a través de una sola conexión, haciendo la carga más eficiente.
 
 # 4. Diseño y Administración de la Base de Datos
 
@@ -1515,19 +1515,19 @@ De cara al futuro, se proponen tres mejoras:
 
 ## 5.1. Evaluación del Impacto de Seguridad e Importancia de las Datos
 
-**5.1.1. Informe de Evaluación de Riesgos y Seguridad Física/Lógica**
+5.1.1. Informe de Evaluación de Riesgos y Seguridad Física/Lógica
 
-**5.1.2. Valor Estratégico de los Datos en la Economía Digital y Normativa Internacional**
+5.1.2. Valor Estratégico de los Datos en la Economía Digital y Normativa Internacional
 
 ## 5.2. Optimización Tecnológica y Transformación Digital
 
-**5.2.1. Medidas de Optimización de Recursos e Impacto Ambiental de la Infraestructura**
+5.2.1. Medidas de Optimización de Recursos e Impacto Ambiental de la Infraestructura
 
-**5.2.2. Análisis de Transformación Digital: Alineación con los Objetivos Corporativos de Innovate Tech**
+5.2.2. Análisis de Transformación Digital: Alineación con los Objetivos Corporativos de Innovate Tech
 
-## **6. Entregables Multimedia e Incidencias**
+## 6. Entregables Multimedia e Incidencias
 
-**6.1. Enlace al Vídeo Demostrativo Oficial (3 Minutos)**
+6.1. Enlace al Vídeo Demostrativo Oficial (3 Minutos)
 
-**6.2. Registro de Incidencias, Problemas Encontrados y Soluciones Aplicadas.**
+6.2. Registro de Incidencias, Problemas Encontrados y Soluciones Aplicadas.
 
