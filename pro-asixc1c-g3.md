@@ -175,10 +175,14 @@ Para montar la infraestructura de Innovate Tech, la idea clave es no cometer el 
 
 Este es el hardware real que vamos a meter en el CPD:
 
-- 2x Servidores Host (Dell PowerEdge R760 - 2U cada uno): Son las dos máquinas principales donde irá el hipervisor para crear las máquinas virtuales. Llevan fuentes redundantes con certificación Titanium para no gastar luz de más (sostenibilidad) y tarjetas de red dobles a 10 Gbps para que no haya cuellos de botella.
-- 1x Cabina de Almacenamiento Centralizado (QNAP Enterprise ZFS NAS ES1642dc - 3U): Aquí es donde guardaremos todos los datos de la empresa de forma centralizada. Elegimos este modelo porque tiene doble controladora activa (si una placa madre se quema, la otra sigue funcionando sin cortes). Además, usa el sistema de archivos ZFS y un entorno RAID 6, lo que significa que aunque se rompan dos discos a la vez, no perdemos ni un solo vídeo, audio o dato de la base de datos.
-- 2x Switches de Red (Cisco Catalyst 9300 - 1U cada uno): Se encargan de conectar todo. Los configuramos en modo *Stack* (apilados físicamente). Así, la red los ve como un único switch gigante; si uno se apaga o falla, el otro absorbe todo el tráfico al instante para que la empresa no se quede colgada.
-- 2x Patch Panels Cat6A (24 puertos - 1U cada uno): Sirven para organizar el cableado que viene de fuera del rack antes de conectarlo a los switches Cisco, protegiendo los puertos de estos últimos contra el desgaste de conectar y desconectar. Soporta velocidades de hasta 10 Gbps, algo fundamental para que las pruebas de ancho de banda salgan perfectas.
+- 2x Servidores Host (Dell PowerEdge R760 - 2U cada uno): 
+Son las dos máquinas principales donde irá el hipervisor para crear las máquinas virtuales. Llevan fuentes redundantes con certificación Titanium para no gastar luz de más (sostenibilidad) y tarjetas de red dobles a 10 Gbps para que no haya cuellos de botella.
+- 1x Cabina de Almacenamiento Centralizado (QNAP Enterprise ZFS NAS ES1642dc - 3U): 
+Aquí es donde guardaremos todos los datos de la empresa de forma centralizada. Elegimos este modelo porque tiene doble controladora activa (si una placa madre se quema, la otra sigue funcionando sin cortes). Además, usa el sistema de archivos ZFS y un entorno RAID 6, lo que significa que aunque se rompan dos discos a la vez, no perdemos ni un solo vídeo, audio o dato de la base de datos.
+- 2x Switches de Red (Cisco Catalyst 9300 - 1U cada uno): 
+Se encargan de conectar todo. Los configuramos en modo *Stack* (apilados físicamente). Así, la red los ve como un único switch gigante; si uno se apaga o falla, el otro absorbe todo el tráfico al instante para que la empresa no se quede colgada.
+- 2x Patch Panels Cat6A (24 puertos - 1U cada uno): 
+Sirven para organizar el cableado que viene de fuera del rack antes de conectarlo a los switches Cisco, protegiendo los puertos de estos últimos contra el desgaste de conectar y desconectar. Soporta velocidades de hasta 10 Gbps, algo fundamental para que las pruebas de ancho de banda salgan perfectas.
 
 ### 2. Distribución Espacial de los Racks (Estructuración)
 
@@ -538,7 +542,8 @@ Para organizar los servicios del proyecto, combinamos el uso de direccionamiento
 | VM-04 | Servidor de Base de Datos | 172.31.4.231 | 13.219.51.204 |
 | VM-05 | Servidor de Audio | 172.31.94.208 | 3.210.116.206 |
 | VM-06 | Servidor de Streaming de Vídeo | 172.31.12.197 | 44.223.148.123 |
-| VM-07 | Servidor de Videoconferencias(JITSI MEET) | 172.31.33.132 | 44.205.155.37 |
+| VM-07 | Servidor de Videoconferencias
+(JITSI MEET) | 172.31.33.132 | 44.205.155.37 |
 
 Por defecto, AWS cambia la IP pública de las máquinas cada vez que se apagan. Para evitar que esto rompa las conexiones, hemos asignado una **Elastic IP** (IP fija) a cada servidor.
 
@@ -955,7 +960,8 @@ eyJ2ZXIiOiI4LjE0LjAiLCJhZHIiOlsiMTcyLjMxLjI0LjIzMDo5MjAwIl0sImZnciI6Ijc2N2IyNTBi
 
 —---------------------------------------------------------------------------------
 
-Ahora haremos que el servicio elasticsearch se levante solo cada que iniciemos la máquina sin la necesidad de tener que ejecutar un script para activarlo, para ello creamos un archivo del elasticsearch en la ruta etc/systemd/system/elasticsearch.serviceDentro de ese fichero tendrá esta configuración.
+Ahora haremos que el servicio elasticsearch se levante solo cada que iniciemos la máquina sin la necesidad de tener que ejecutar un script para activarlo, para ello creamos un archivo del elasticsearch en la ruta etc/systemd/system/elasticsearch.service
+Dentro de ese fichero tendrá esta configuración.
 
 **Description:** El nombre del programa que veremos al hacer un status.
 
@@ -1939,7 +1945,8 @@ Al transmitir el vídeo por fascículos en lugar de descargar el archivo entero,
 
 Lanzamos la instancia para el servidor de Video Streaming el cual usaremos
 
-**Ubuntu 24.04** → Ya que es estable**t3.medium** **→** Para el servidor de video streaming creemos que con 2cpu y 4 de ram para nuestro entorno es suficiente
+**Ubuntu 24.04** → Ya que es estable
+**t3.medium** **→** Para el servidor de video streaming creemos que con 2cpu y 4 de ram para nuestro entorno es suficiente
 
 **Grupo de seguridad** → Es uno nuevo con diferentes reglas de entrada
 
@@ -1969,7 +1976,8 @@ A continuación creamos dos carpetas separadas, en **/vod** guardaremos los arch
 
 Luego pasamos a editar el archivo de configuración de nginx para agregar un bloque.
 
-**rtmp {}** → RTMP(Real Time Messaging Protocol), Activa el motor multimedia de nginx para procesar video, independientemente de la web normal
+
+**rtmp {}** → RTMP(Real Time Messaging Protocol), Activa el motor multimedia de nginx para procesar video, independientemente de la web normal
 
 **server {}** → Define un servidor virtual para gestionar el streaming
 
@@ -2133,7 +2141,8 @@ docker
 
 
 
-Se puede comprobar acahttp://44.223.148.123/hls/itb/index.m3u8 
+Se puede comprobar aca
+http://44.223.148.123/hls/itb/index.m3u8 
 
 http://44.223.148.123/hls/aws/index.m3u8 
 
@@ -3253,7 +3262,7 @@ El proyecto moderniza la gestión interna de Innovate Tech en varios frentes: Op
 # 6. Entregables Multimedia e Incidencias
 
 ### 6.1. Enlace al Vídeo Demostrativo Oficial (3 Minutos)
-
+https://drive.google.com/file/d/1_Zi1O95I5tiMPekqmCFVtUHK-1Cg1LUy/view?usp=sharing
 ### 6.2. Registro de Incidencias, Problemas Encontrados y Soluciones Aplicadas.
 
 En el caso del servidor de LDAP a la hora de instalar auditbeat no hubo ningún tipo de problema pero no sabíamos porque no enviaba logins al servidor de kibana.
