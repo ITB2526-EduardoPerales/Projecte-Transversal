@@ -1388,7 +1388,7 @@ Una vez hemos acabado con la configuración verificamos que el servicio de jitsi
 
 
 
-Luego añadimos estas líneas al archivo sip-communicator.properties porque Jitsi está instalado en AWS, que usa NAT. Esto significa que la VM tiene una IP privada interna pero el tráfico de vídeo necesita salir por la IP pública.
+Luego añadimos estas líneas al archivo sip-communicator.properties porque Jitsi está instalado en AWS, que usa NAT. Esto significa que la maquina virtual tiene una IP privada interna pero el tráfico de vídeo necesita salir por la IP pública.
 
 
 
